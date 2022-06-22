@@ -5,6 +5,7 @@ import Type from "./Type";
 import Freelancer from "../Freelancer/Freelancer";
 import About from "../About/About";
 import Services from "../Services/Services";
+import Contact from "../Contact";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -66,6 +67,7 @@ function Home() {
       <Freelancer />
       <About />
       <Services />
+      <Contact />
     </>
   );
 }
