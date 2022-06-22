@@ -15,6 +15,7 @@ function Footer() {
             <a
               href="https://kishorbalgi.netlify.app/"
               style={{ textDecoration: "none" }}
+              rel="noreferrer"
               target="_blank"
             >
               <span className="purple">Kishor Balgi</span>
