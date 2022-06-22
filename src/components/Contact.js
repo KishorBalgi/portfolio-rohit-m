@@ -9,19 +9,19 @@ function Contact() {
           <span className="purple">CONTACT</span>
         </h1>
         <Row className="contact-details">
-          <Col sm={6}>
+          <Col xs={12} sm={6} md={4}>
             <div>
               <h3>Phone</h3>
               <p className="purple">+91 9876543210</p>
             </div>
           </Col>
-          <Col sm={6}>
+          <Col xs={12} sm={6} md={4}>
             <div>
               <h3>Skype Id</h3>
               <p className="purple">johndoe@john.com</p>
             </div>
           </Col>
-          <Col sm={12}>
+          <Col xs={12} sm={12} md={4}>
             <div>
               <h3>Email</h3>
               <p className="purple">johndoe@john.com</p>
