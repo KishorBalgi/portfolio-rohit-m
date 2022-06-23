@@ -12,19 +12,19 @@ function Contact() {
           <Col xs={12} sm={6} md={4}>
             <div>
               <h3>Phone</h3>
-              <p className="purple">+91 9876543210</p>
+              <p className="purple">+91 8247532925</p>
             </div>
           </Col>
           <Col xs={12} sm={6} md={4}>
             <div>
               <h3>Skype Id</h3>
-              <p className="purple">johndoe@john.com</p>
+              <p className="purple">rohithm191@gmail.com</p>
             </div>
           </Col>
           <Col xs={12} sm={12} md={4}>
             <div>
               <h3>Email</h3>
-              <p className="purple">johndoe@john.com</p>
+              <p className="purple">rohithm191@gmail.com</p>
             </div>
           </Col>
         </Row>

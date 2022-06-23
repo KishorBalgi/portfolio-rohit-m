@@ -8,20 +8,22 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
+  DiBootstrap,
 } from "react-icons/di";
-import { SiPytorch, SiFirebase, SiNextdotjs } from "react-icons/si";
+import { SiNextdotjs, SiVuedotjs } from "react-icons/si";
+import { FaAws } from "react-icons/fa";
 
 function Skills() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={5} md={3} lg={2} align="center">
         <div className="tech-icons">
-          <CgCPlusPlus />
+          <DiJavascript1 />
         </div>
       </Col>
       <Col xs={5} md={3} lg={2} align="center">
         <div className="tech-icons">
-          <DiJavascript1 />
+          <DiBootstrap />
         </div>
       </Col>
       <Col xs={5} md={3} lg={2} align="center">
@@ -32,6 +34,11 @@ function Skills() {
       <Col xs={5} md={3} lg={2} align="center">
         <div className="tech-icons">
           <DiReact />
+        </div>
+      </Col>
+      <Col xs={5} md={3} lg={2} align="center">
+        <div className="tech-icons">
+          <SiVuedotjs />
         </div>
       </Col>
       <Col xs={5} md={3} lg={2} align="center">
@@ -51,17 +58,12 @@ function Skills() {
       </Col>
       <Col xs={5} md={3} lg={2} align="center">
         <div className="tech-icons">
-          <SiFirebase />
-        </div>
-      </Col>
-      <Col xs={5} md={3} lg={2} align="center">
-        <div className="tech-icons">
           <DiPython />
         </div>
       </Col>
       <Col xs={5} md={3} lg={2} align="center">
         <div className="tech-icons">
-          <SiPytorch />
+          <FaAws />
         </div>
       </Col>
     </Row>

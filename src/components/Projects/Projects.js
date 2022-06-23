@@ -18,7 +18,11 @@ function Projects() {
               img={matchSquare}
               isBlog={false}
               title="MatchSquare"
-              description="MatchSquare is the Wholesale Marketplace that provides a curated product experience for the independent retail community who want new and unique Health, Wellness, and Lifestyle products. "
+              description="MatchSquare isthe B2B e-commerce Wholesale Marketplace that provides a curated product experience
+              business community who want to sell new andunique Products.
+              Designed and developed High-level Web design for listing products pages using reactJs and redux.
+              Worked on creating custom reusable components for the application in the multiple areas.
+              "
               link="https://www.matchsquare.com/"
             />
           </Col>
@@ -28,7 +32,11 @@ function Projects() {
               img={telemed2u}
               isBlog={false}
               title="TELEMED2U"
-              description="TeleMed2U is a multi-specialty group of board-certified physicians that supplies its clients with real-time access to physician specialists through the use of telemedicine. "
+              description="TeleMed2U is a multi-specialty group of board-certified physicians that supplies its clients with real-time
+              access tointeract video calling consultation with Doctor and MultiplePatients.
+              At TeleMed2U, I had developed video calling application using twilio to communicate provider with
+              multiple participants.
+              Worked with theSocket nodes in the video application for handling multiple incoming requests."
               link="https://www.telemed2u.com/"
             />
           </Col>
